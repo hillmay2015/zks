@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* shopcart CSS Document */
+/*------start content1------*/
+.cart {
+	width: 1366px;
+	height: 900px;
+}
+.cart1-right {
+	float: right;
+	width: 300px;
+	height: 50px;
+	padding-top: 16px;
+	font-size: 14px;
+}
+.cart1-left {
+	font-size: 14px;
+	width: 300px;
+	height: 50px;
+	padding-left: 123px;
+	padding-top: 16px;
+}
+.cart2-left {
+	padding-left: 116px;
+	border: 1px solid rgba(153, 153, 153, 0.21);
+	height: 160px;
+}
+.cart2-middle {
+	float: left;
+	margin-left: 270px;
+	margin-top: -174px;
+}
+.cart2-middle a {
+	text-decoration: none;
+}
+.cart2-middle a:hover
+{
+	text-decoration:underline;}
+.cart2-middle p {
+	font-size: 12px;
+}
+.cart2-middle form {
+	font-size: 12px;
+}
+.middle-pic {
+	height: 20px;
+	width: 120px;
+	background-color: #F96;
+	border-radius:2px;
+	border:1px solid #f96;
+}
+.middle-pic1 {
+	padding-left: 18px;
+	margin-top: 2px;
+}
+.middle-pic2 {
+	float: left;
+	padding-left: 50px;
+	padding-bottom: -42px;
+	margin-top: -15px;
+}
+.middle-pic3 {
+	float: left;
+	padding-left: 21px;
+	margin-top: -14px;
+}
+.cart2-right {
+	float: right;
+	margin-right: -484px;
+	margin-top: -120px;
+}
+.pay {
+	width: 99px;
+	height: 24px;
+	background-color: #FC0;
+	padding: 2px 8px;
+	border-radius:2px;
+	border:1px solid #fc0;
+}
+.pay a {
+	text-decoration: none;
+	color: #FFF;
+	margin: 12px;
+}
+.pay a :hover
+{
+	text-decoration:underline;}
+.cart7-left {
+	width: 100px;
+	height: 39px;
+	background-color: #F66;
+	float: left;
+	margin-left: 280px;
+	text-align:center;
+	line-height:39px;
+	border-radius:2px;
+	border:1px #F66 solid;
+}
+.cart7-right {
+	float: right;
+	width: 111px;
+	height: 39px;
+	background-color: #F66;
+	margin-right: 182px;
+
+	line-height:39px;
+	text-align:center;
+		border-radius:2px;
+		border:1px #F66 solid;
+}
+.cart7-left a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+}
+.cart7-left a:hover
+{
+	text-decoration:underline;}
+.cart7-right a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFF;
+
+}
+.cart7-right a:hover
+{
+	text-decoration:underline;}
+	/*------end content1------*/

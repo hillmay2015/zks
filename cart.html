@@ -1,0 +1,426 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>购物车详情</title>
+<link href="css/shopping.css" rel='stylesheet' type='text/css' />
+<link href="css/shopcart.css" rel='stylesheet' type='text/css' />
+</head>
+
+<body>
+<!------start header top------->
+<div class="top1">
+  <div class="top-left">
+    <p> <a href="goodslist.html" target="_blank">购物五折啦</a></p>
+  </div>
+  <div class="top-middle">
+    <marquee id="move">
+    欢迎下载折扣店APP,折扣店随时随地带你购物！
+    </marquee>
+  </div>
+  <div class="top-right">
+    <ul>
+      <li> <a href="#">最近浏览</a></li>
+      |
+      <li> <a href="#">关于我们</a></li>
+      |
+      <li> <a href="login_user.html" target="_blank">登录</a></li>
+      |
+      <li> <a href="register.html" target="_blank">注册</a></li>
+    </ul>
+  </div>
+</div>
+<!------ end header top-------> 
+<!------start header logo------>
+<div class="header1">
+  <div id="logo"> <a title="折扣社" href="index.html"><img src="images/logo.png" alt="折扣店logo" /></a> </div>
+  <div class="search">
+    <form action="#" method="post" id="sitesearch">
+      <fieldset>
+        <input type="text" value="搜索一下" onfocus="this.value=(this.value=='搜索一下)? '' : this.value ;" />
+        <input type="image" src="images/search.png" id="search" alt="搜索一下" />
+      </fieldset>
+    </form>
+  </div>
+  <div class="icon1"> <a href=""><img  class="img1" src="images/love.png"  title="收藏"/> </a> </div>
+  <div class="icon2"><a href=""> <img  class="img1"  src="images/bag.png" title="购物车" /> </a> </div>
+  <div class="icon3"> <a  class="register_user" href="register.html" target="_blank">注册账户&gt;</a> </div>
+</div>
+<!------end header logo------> 
+
+<!--------start header menu--------->
+<div class="header-menu">
+  <ul>
+    <li><a class="a1" href="">首页</a> </li>
+    <li><a class="a2" href="">今日最新</a>
+      <ul>
+        <li><a href="">精选女装</a></li>
+        <li><a href="">秋装外套</a></li>
+        <li><a href="">温暖毛衣</a></li>
+        <li><a href="">毛呢外套</a></li>
+        <li><a href="">秋冬外套</a></li>
+        <li><a href="">长袖衬衫</a></li>
+      </ul>
+    </li>
+    <li><a class="a3" href="">女装</a>
+      <ul>
+        <li><a href="">秋款风衣</a></li>
+        <li><a href="">机车皮衣</a></li>
+        <li><a href="">秋款连衣裙</a></li>
+        <li><a href="">小脚裤</a></li>
+        <li><a href="">休闲裤</a></li>
+        <li><a href="">打底裤</a></li>
+      </ul>
+    </li>
+    <li><a class="a4" href="">男装</a>
+      <ul>
+        <li><a href="">个性潮男</a></li>
+        <li><a href="">时尚休闲</a></li>
+        <li><a href="">商务绅士</a></li>
+        <li><a href="">休闲衬衫</a></li>
+        <li><a href="">西服套装</a></li>
+        <li><a href="">直筒西裤</a></li>
+      </ul>
+    </li>
+    <li><a class="a5" href="">儿童服饰</a>
+      <ul>
+        <li><a href="">毛衣|针织衫</a></li>
+        <li><a href="">儿童男装</a></li>
+        <li><a href="">儿童女装</a></li>
+        <li><a href="">表演服饰</a></li>
+        <li><a href="">亲子装</a></li>
+        <li><a href="">休闲套装</a></li>
+      </ul>
+    </li>
+    <li><a class="a6" href="">男包|女包</a>
+      <ul>
+        <li><a href="">秋新款</a></li>
+        <li><a href="">单肩包</a></li>
+        <li><a href="">斜挎包</a></li>
+        <li><a href="">手提包</a></li>
+        <li><a href="">大牌包</a></li>
+        <li><a href="">钱包</a></li>
+      </ul>
+    </li>
+    <li><a class="a7" href="">潮流前线</a>
+      <ul>
+        <li><a href="">珠宝首饰</a></li>
+        <li><a href="">时尚饰品</a></li>
+        <li><a href="">品质手表</a></li>
+        <li><a href="">眼镜配饰</a></li>
+        <li><a href="">男人饰品</a></li>
+        <li><a href="">原创饰品</a></li>
+      </ul>
+    </li>
+    <li><a class="a8" href="">大牌领先看</a>
+      <ul>
+        <li><a href=""> CHANEL</a></li>
+        <li><a href=""> PARADA</a></li>
+        <li> <a href=""> GUCCI</a></li>
+        <li> <a href=""> HERMES</a></li>
+        <li><a href=""> Armani</a></li>
+        <li> <a href=""> Versace</a></li>
+      </ul>
+    </li>
+    <li><a class="a9" href="">今日折扣</a>
+      <ul>
+        <li><a href=""> 香奈儿8折</a></li>
+        <li><a href=""> 普拉达7折</a></li>
+        <li> <a href=""> 古驰5折</a></li>
+        <li> <a href="">爱马仕9折</a></li>
+        <li><a href=""> 阿玛尼8折</a></li>
+        <li> <a href="">范思哲9折</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<!--------end header menu---------> 
+
+<!--------start content1--------->
+<div class="cart">
+<div class="cart1">
+  <div class="cart1-right"><img src="images/bag1.png" />我的购物车/5件商品</div>
+  <div class="cart1-left "><img src="images/art1.png" />喜爱收藏的商品</div>
+</div>
+<div class="cart2">
+<div class="cart2-left"> <img src="images/choose1.jpg" width="105px" height="142px" /> </div>
+<div class="cart2-middle">
+  <h4> <a href="">2014春秋装新款女装长袖针织衫女秋冬韩版外搭毛衣厚大码开衫外套</a></h4>
+  <p> 选择你喜欢的颜色</p>
+  <form>
+    <input type="checkbox" name="颜色" value="color 1" />
+    明黄色
+    <input type="checkbox" name="颜色" value="color2" />
+    湖蓝色
+    <input type="checkbox" name="颜色" value="color3" />
+    浅绿色
+    <input type="checkbox" name="颜色" value="color4" />
+    大红色
+    <input type="checkbox" name="颜色" value="color5" />
+    粉红色
+    <input type="checkbox" name="颜色" value="color6" />
+    橙子色
+  </form>
+  <p>你选择的尺码：M码|订单编号：54133131010</p>
+  <div class="middle-pic">
+    <div class="middle-pic1"><img src="images/s_icon1.png" /></div>
+    <div class="middle-pic2"><img src="images/s_icon2.png" /></div>
+    <div class="middle-pic3"><img src="images/s_icon3.png"  /></div>
+  </div>
+  <div class="cart2-right">
+    <p>优惠：9月特惠到10.1 全国满199包邮</p>
+    <p>促销：会员享受8折优惠</p>
+    <p>价格：<strong>8折限时优惠￥299</strong></p>
+    <div class="pay"><a href="">立刻购买&gt;</a></div>
+  </div>
+</div>
+<br />
+<div class="cart3">
+<div class="cart2-left"> <img src="images/choose2.jpg" width="105px" height="142px" /> </div>
+<div class="cart2-middle">
+  <h4> <a href="">女神的新衣Nana林珍娜同款预售伊芙丽2014新款马甲套装一起更优惠</a></h4>
+  <p> 选择适合你的尺码和颜色</p>
+  <form>
+    <input type="checkbox" name="颜色" value="color 1" />
+    大红色
+    <input type="checkbox" name="颜色" value="color2" />
+    湖蓝色
+    <input type="checkbox" name="颜色" value="color3" />
+    浅绿色
+    <input type="checkbox" name="颜色" value="color4" />
+    S码
+    <input type="checkbox" name="颜色" value="color5" />
+    M码
+    <input type="checkbox" name="颜色" value="color6" />
+    L码
+  </form>
+  <p>你选择的尺码：M码|订单编号：26833131470</p>
+  <div class="middle-pic">
+    <div class="middle-pic1"><img src="images/s_icon1.png" /></div>
+    <div class="middle-pic2"><img src="images/s_icon2.png" /></div>
+    <div class="middle-pic3"><img src="images/s_icon3.png"  /></div>
+  </div>
+  <div class="cart2-right">
+    <p>优惠：9月特惠到10.1 全国满199包邮</p>
+    <p>促销：会员享受8折优惠</p>
+    <p>价格：<strong>8折限时优惠￥399</strong></p>
+    <div class="pay"><a href="">立刻购买&gt;</a></div>
+  </div>
+</div>
+<div class="cart4">
+<div class="cart2-left"> <img src="images/choose3.jpg" width="105px" height="142px" /> </div>
+<div class="cart2-middle">
+  <h4> <a href="">预售女神的新衣 ASOBIO 2014 尚雯婕明星同款优雅修身礼服连衣裙</a></h4>
+  <p> 选择你喜欢的颜色</p>
+  <form>
+    <input type="checkbox" name="颜色" value="color 1" />
+    明黄色
+    <input type="checkbox" name="颜色" value="color2" />
+    湖蓝色
+    <input type="checkbox" name="颜色" value="color3" />
+    浅绿色
+    <input type="checkbox" name="颜色" value="color4" />
+    大红色
+    <input type="checkbox" name="颜色" value="color5" />
+    粉红色
+    <input type="checkbox" name="颜色" value="color6" />
+    橙子色
+  </form>
+  <p>你选择的尺码：M码|订单编号：76133131036</p>
+  <div class="middle-pic">
+    <div class="middle-pic1"><img src="images/s_icon1.png" /></div>
+    <div class="middle-pic2"><img src="images/s_icon2.png" /></div>
+    <div class="middle-pic3"><img src="images/s_icon3.png"  /></div>
+  </div>
+  <div class="cart2-right">
+    <p>优惠：9月特惠到10.1 全国满199包邮</p>
+    <p>促销：会员享受8折优惠</p>
+    <p>价格：<strong>8折限时优惠￥699</strong></p>
+    <div class="pay"><a href="">立刻购买&gt;</a></div>
+  </div>
+</div>
+<div class="cart5">
+  <div class="cart2-left"> <img src="images/choose4.jpg" width="105px" height="142px" /> </div>
+  <div class="cart2-middle">
+    <h4> <a href="">女神的新衣 ASOBIO 尚雯婕同款 2014秋装 立体花宽松字母长袖卫衣</a></h4>
+    <p> 选择你喜欢的颜色</p>
+    <form>
+      <input type="checkbox" name="颜色" value="color 1" />
+      明黄色
+      <input type="checkbox" name="颜色" value="color2" />
+      湖蓝色
+      <input type="checkbox" name="颜色" value="color3" />
+      浅绿色
+      <input type="checkbox" name="颜色" value="color4" />
+      大红色
+      <input type="checkbox" name="颜色" value="color5" />
+      粉红色
+      <input type="checkbox" name="颜色" value="color6" />
+      橙子色
+    </form>
+    <p>你选择的尺码：M码|订单编号：54133131010</p>
+    <div class="middle-pic">
+      <div class="middle-pic1"><img src="images/s_icon1.png" /></div>
+      <div class="middle-pic2"><img src="images/s_icon2.png" /></div>
+      <div class="middle-pic3"><img src="images/s_icon3.png"  /></div>
+    </div>
+    <div class="cart2-right">
+      <p>优惠：9月特惠到10.1 全国满199包邮</p>
+      <p>促销：会员享受8折优惠</p>
+      <p>价格：<strong>8折限时优惠￥299</strong></p>
+      <div class="pay"><a href="">立刻购买&gt;</a></div>
+    </div>
+  </div>
+  <div class="cart6">
+    <div class="cart2-left"> <img src="images/choose5.jpg" width="105px" height="142px" /> </div>
+    <div class="cart2-middle">
+      <h4> <a href="">2014秋冬上新 秋季新款女装 简约撞色 呢子大衣 中长款橙毛呢外套</a></h4>
+      <p> 选择你喜欢的颜色</p>
+      <form>
+        <input type="checkbox" name="颜色" value="color 1" />
+        明黄色
+        <input type="checkbox" name="颜色" value="color2" />
+        湖蓝色
+        <input type="checkbox" name="颜色" value="color3" />
+        浅绿色
+        <input type="checkbox" name="颜色" value="color4" />
+        大红色
+        <input type="checkbox" name="颜色" value="color5" />
+        粉红色
+        <input type="checkbox" name="颜色" value="color6" />
+        橙子色
+      </form>
+      <p>你选择的尺码：M码|订单编号：341447819210</p>
+      <div class="middle-pic">
+        <div class="middle-pic1"><img src="images/s_icon1.png" /></div>
+        <div class="middle-pic2"><img src="images/s_icon2.png" /></div>
+        <div class="middle-pic3"><img src="images/s_icon3.png"  /></div>
+      </div>
+      <div class="cart2-right">
+        <p>优惠：9月特惠到10.1 全国满199包邮</p>
+        <p>促销：会员享受8折优惠</p>
+        <p>价格：<strong>8折限时优惠￥199</strong></p>
+        <div class="pay"><a href="">立刻购买&gt;</a></div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <div class="cart7">
+      <div class="cart7-left"><a href="">商品付款></a></div>
+      <div class="cart7-right"><a href="">总计：￥1895</a></div>
+    </div>
+  </div>
+  <br />
+  <br />
+  
+  <!--------end content1---------> 
+  
+  <!-------- start content2-------->
+  <div class="content">
+    <div class="content1">
+      <h4>购物指南</h4>
+      <ul class="f_nav">
+        <li><a href="goodslist.html">购物流程</a></li>
+        <li><a href="goodslist.html">会员介绍</a></li>
+        <li><a href="goodslist.html">团购|机票</a></li>
+        <li><a href="goodslist.html">常见问题</a></li>
+        <li><a href="goodslist.html">意见反馈</a></li>
+        <li><a href="goodslist.html">联系客服</a></li>
+      </ul>
+    </div>
+    <div class="content1">
+      <h4>配送方式</h4>
+      <ul class="f_nav">
+        <li><a href="goodslist.html">上门自取</a></li>
+        <li><a href="goodslist.html">211限时到达</a></li>
+        <li><a href="goodslist.html">配送服务查询</a></li>
+        <li><a href="goodslist.html">配送费收取标准</a></li>
+        <li><a href="goodslist.html">同城配送</a></li>
+        <li><a href="goodslist.html">海外配送</a></li>
+      </ul>
+    </div>
+    <div class="content1">
+      <h4>支付方式</h4>
+      <ul class="f_nav">
+        <li><a href="#">售后政策</a></li>
+        <li><a href="#">价格保护</a></li>
+        <li><a href="#">退款说明</a></li>
+        <li><a href="#">返修|退换货</a></li>
+        <li><a href="#">取消订单</a></li>
+        <li><a href="#">订单详情</a></li>
+      </ul>
+    </div>
+    <div class="content1">
+      <h4>售后服务</h4>
+      <ul class="f_nav">
+        <li><a href="#">售后政策</a></li>
+        <li><a href="#">价格保护</a></li>
+        <li><a href="#">退款说明</a></li>
+        <li><a href="#">返修|退换货</a></li>
+        <li><a href="#">取消订单</a></li>
+        <li><a href="#">订单详情</a></li>
+      </ul>
+    </div>
+    <div class="content1">
+      <h4>商家服务</h4>
+      <ul class="f_nav">
+        <li><a href="#">商家帮助</a></li>
+        <li><a href="#">商家入驻</a></li>
+        <li><a href="#">新手指导</a></li>
+        <li><a href="#">培训中心</a></li>
+        <li><a href="#">信息公告</a></li>
+        <li><a href="#">广告服务</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="clearfix"></div>
+</div>
+<!--------end content2--------> 
+
+<!-------- start footer top-------->
+<div class="footer1">
+<div class="footer-left">
+<div class="footer-pic"> <img src="images/picll.jpg" / title="点击领取优惠券">
+  <div class="put">
+    <marquee scrollamount="4"  id="move3">
+    领取优惠券后购买更实惠
+    </marquee>
+  </div>
+</div>
+<div class="address"> 折扣店服装公司地址：<br />
+  中国<br />
+  湖北/武汉市<br />
+  洪山区雄楚大道91号名仕一号<br />
+  <br />
+  Tel: 18702727108<br />
+  Email: <a href="#">yxjy@sina.com</a>
+  </address>
+</div>
+<div class="footer-right">
+  <marquee id="move2" scrollamount="5">
+  美丽百分百，折扣店让你快人一步
+  </marquee>
+  <div class="share-pic"><img src="images/social.png"  title="分享更快乐" />
+  
+  </div>
+  <div id="yournote">
+    <form action="#" method="post">
+      <fieldset>
+        <legend>乐在分享</legend>
+        <input type="text" value="留下您宝贵的建议：" onfocus="this.value=(this.value=='留下您宝贵的建议')? '' : this.value ;" />
+        <input type="submit" id="subscribe" value="留言" />
+      </fieldset>
+    </form>
+  </div>
+</div>
+<div class="clearfix"> </div>
+<!--------end footer top---------> 
+
+<!--------start footer-------->
+<div class="footer2">
+  <p>Copyright &copy; 2014.Company<i> hill may </i> All rights reserved.</p>
+</div>
+<!--------end footer-------->
+</body>
+</html>

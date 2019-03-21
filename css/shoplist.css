@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+/*------ start content1-------*/
+.menu {
+	width: 350px;
+	height: 1200px;
+}
+.menu-left {
+	padding-left: 80px;
+	margin-left: -109px;
+}
+.menu1 ul li a {
+	text-decoration: none;
+	font-size: 14px;
+}
+.menu1 h4:hover
+{
+	background-color:#F90;}
+.menu1 h4 {
+	background-color: rgba(204, 204, 204, 0.44);
+	width: 155px;
+	border-bottom: 1px solid #555;
+}
+.menu1 ul li {
+	list-style: none;
+	padding-left: 100px;
+	line-height: 27px;
+}
+.menu2 form {
+	padding-left: 140px;
+}
+.menu2 h4 {
+	width: 155px;
+	background-color: rgba(204, 204, 204, 0.44);
+	border-bottom: 1px solid #555;
+}
+.menu2 h4:hover
+{
+	background-color:#F90;}
+.menu2 form a {
+	text-decoration: none;
+	line-height: 27px;
+}
+
+.menu-right {
+	width: 930px;
+	height: 1200px;
+	float: left;
+	margin-left: 367px;
+	margin-top: -1200px;
+}
+.menu-right p {
+	font-size: 14px;
+}
+.picture {
+	width: 200px;
+	height: 300px;
+	display: inline-block;
+	padding: 35px 8px;
+	text-align: center;
+	font-size: 14px;
+}
+.picture a
+{
+	text-decoration:none;}
+.picture h5 {
+	text-align: center;
+}
+.view1 .mask1, .view1 .content {
+	position: absolute;
+	overflow: hidden;
+	top: 130px;
+	left: 90px;
+}
+.info {
+	display: block;
+	background: url(../images/label_new.png) no-repeat;
+	text-indent: -9999px;
+	width: 75px;
+	height: 75px;
+	margin-left: 134px;
+	margin-top: -145px;
+}
+/*------end content1------*/

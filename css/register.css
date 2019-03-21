@@ -1,0 +1,276 @@
+@charset "utf-8";
+/* register CSS Document */
+
+
+
+/*-------- 登录 注册 start------- */
+.bg-gray {
+	background: #f6f6f6;
+}
+.top {
+	background-color: #006680;
+	color: #FFF;
+}
+.top a {
+	color: white;
+}
+.tp_loginInfo {
+	margin-left: 1100px;
+}
+.login-wrap {
+	padding: 20px 0 25px;
+}
+.login-wrap a {
+	color: #08c;
+}
+.login-wrap .welcome {
+	display: inline-block;
+	font: bold 30px "SimHei";
+	padding-top: 14px;
+	color: #535353;
+}
+.personal_info {
+	display: inline-block;
+	font: bold 20px "SimHei";
+	margin: 20px 0 -15px 0;
+	color: #535353;
+}
+.w940 {
+	width: 940px;
+	margin: 0 auto;
+}
+.login-box .pic img {
+	width: 450px;
+	height: 440px;
+}
+.entry {
+	padding: 0 40px;
+	margin-top: 50px;
+}
+.entry .title {
+	line-height: 50px;
+	font-family: "Microsoft YaHei";
+	font-size: 16px;
+	color: #666;
+}
+.entry dl {
+	position: relative;
+	margin-bottom: 10px;
+}
+.entry dt {
+	position: absolute;
+	left: 8px;
+	top: 11px;
+	color: #999;
+	font-size: 12px;
+	line-height: 18px;
+	cursor: text;
+}
+.entry .text {
+	width: 252px;
+	height: 16px;
+	border: 1px solid #B0B0B0;
+	line-height: 16px;
+	padding: 11px 16px 11px 40px;
+	color: #333;
+	font-size: 14px;
+}
+.entry .entry-name dd label {
+	position: absolute;
+	left: 44px;
+	top: 11px;
+	color: #AAA;
+	transition: all .2s ease-out 0s;
+	font-size: 14px;
+	cursor: text;
+}
+.entry .forget-psd {
+	margin-top: -4px;
+	overflow: hidden;
+	_margin-bottom: 45px;
+}
+.entry .forget-psd a:hover {
+	text-decoration: underline;
+}
+.register, .tp.for-register .tp_box, .tp.for-register {
+	background: white;
+}
+.register {
+	border: 1px solid #dddddd;
+	padding-top: 20px;
+	margin-bottom: 70px;
+	background: url(../images/register_bg.jpg) bottom no-repeat white;
+}
+.register .item input, .entry .item input {
+	width: 313px;
+	height: 38px;
+	margin: 20px 0;
+	background: url(../images/login.jpg) no-repeat;
+	border: 0;
+	cursor: pointer;
+	outline: none;
+}
+.register .item input {
+	background: url(../images/register.jpg) no-repeat;
+}
+
+
+.have-reg {
+	margin: 0 auto;
+	margin-bottom: 5px;
+	padding-right: 20px;
+	text-align: right;
+}
+
+.spsearch {
+	padding: 15px;
+}
+.spsearch span.short {
+	display: inline-block;
+	width: 250px;
+	height: 39px;
+	margin-top: -2px;
+	line-height: 38px;
+	padding-left: 10px;
+	border: 1px solid #DFDFDF;
+	vertical-align: middle;
+	background: #F6F6F6;
+}
+.spsearch span.long {
+	display: inline-block;
+	width: 250px;
+	height: 35px;
+	margin-top: -2px;
+	padding-top: 4px;
+	padding-left: 10px;
+	border: 1px solid #DFDFDF;
+	vertical-align: middle;
+	background: #F6F6F6;
+}
+.spsearch > p > label {
+	display: inline-block;
+	width: 200px;
+	text-align: right;
+	color: #999;
+	font: 14px "Arial"
+}
+.spsearch > p > label.sex {
+	width: 50px;
+	height: 22px;
+	margin-right: 30px;
+	text-align: left;
+}
+.spsearch > p > label.sex input {
+	margin-right: 10px;
+}
+input[type="text"].spnormal, input[type="password"].spnormal {
+	margin-right: 10px;
+	font-family: inherit;
+	font-size: 18px;
+	text-indent: 5px;
+	width: 270px;
+	height: 40px;
+	line-height: 20px;
+	border: 1px solid #DFDFDF;
+	box-shadow: 1px 1px 5px rgba(223, 223, 223, 0.7);
+}
+textarea.spnormal {
+	vertical-align: top;
+	margin: 0;
+	width: 340px;
+	text-indent: 5px;
+	height: 80px;
+	padding-top: 10px;
+	border: 1px solid #DFDFDF;
+	box-shadow: 1px 1px 5px red;
+	resize: none;
+	font-size: 18px;
+}
+
+
+
+/* ----------登录 注册 end-------- */
+
+body, p, form, input, button, dl, dt, dd, ul, ol, li, h1, h2, h3, h4 {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body, button, input, select, textarea {
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #333;
+}
+input, select, textarea {
+	font-size: 100%;
+}
+a {
+	text-decoration: none;
+	color: #333;
+}
+a:hover {
+	text-decoration: none;
+	color: #c00;
+}
+a.blue_link {
+	color: #06c;
+}
+a.blue_link:hover {
+	color: red;
+	text-decoration: underline;
+}
+.clearfix:after {
+	display: block;
+	content: ".";
+	height: 0;
+	visibility: hidden;
+	clear: both;
+	font-size: 0;
+	line-height: 0;
+}
+.clearfix {
+*zoom:1;
+}
+img {
+	border: 0 none;
+	vertical-align: top;
+}
+em {
+	font-style: normal;
+}
+button::-moz-focus-inner {
+padding:0;
+border:none;
+}
+.wrap {
+	width: 980px;
+	margin: 0 auto;
+}
+.fl {
+	float: left;
+	margin-left:20px;
+}
+.fr {
+	float: right;
+	margin-right:30px;
+}
+.mt {
+	margin-top: 10px;
+}
+.pt {
+	padding-top: 10px;
+}
+.ml {
+	margin-left: 10px;
+}
+.mt5 {
+	margin-top: 5px;
+}
+.mt10 {
+	margin-top: 10px;
+}
+.mb {
+	margin-bottom: 10px;
+}
+.none {
+	display: none;
+}

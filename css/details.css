@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+/*-------start content left-------*/
+.menu {
+	width: 1366px;
+	height: 1200px;
+	margin-left: 42px;
+}
+.menu1 h4 {
+	background-color: rgba(204, 204, 204, 0.44);
+	width: 155px;
+	border-bottom: 1px solid #555;
+}
+.menu1 h4:hover
+{
+	background-color:#F90;}
+.menu2 h4 {
+	width: 155px;
+	background-color: rgba(204, 204, 204, 0.44);
+	border-bottom: 1px solid #555;
+}
+.menu2 h4:hover
+{
+	background-color:#F90;}
+.menu-left {
+	width: 930px;
+	height: 1200px;
+}
+.menu-a1 {
+	margin-left: 100px;
+}
+.menu-a11 {
+	margin-left: 100px;
+	padding: 5px 10px;
+}
+.menu-A2 {
+	float: left;
+	margin-left: 420px;
+	margin-top: -470px;
+}
+.menu-a2 h1 {
+	color: #F30;
+}
+.img1 {
+	padding: 2px 10px;
+}
+.menu-a5 {
+	width: 100px;
+   	border-radius:5px;
+	border:1px solid #FC3;
+	margin-left: 120px;
+	background-color: #FC3;
+	text-align: center;
+}
+.menu-a5 a {
+	display:block;
+	width:100px;
+	height:30px;
+	line-height:30px;
+	color: white;
+	font-weight:bold;
+	text-decoration: none;
+}
+.menu-a5 a:hover{
+	color:white;
+	text-decoration:none;
+	}
+.menu-B {
+	width: 930px;
+	height: 150px;
+}
+.menu-C {
+	width: 930px;
+	height: 250px;
+}
+.menu-D {
+	width: 930px;
+	height: 250px;
+}
+.b1 {
+	margin-left: 100px;
+	font-size: 14px;
+	line-height: 23px;
+}
+.b {
+	width: 830px;
+	height: 30px;
+	font-size: 18px;
+	text-align: left;
+	background-color: rgba(204, 204, 204, 0.41);
+	padding: 5px 0;
+	margin-left: 100px;
+}
+.c1 {
+	margin-left: 100px;
+}
+.c2 {
+	margin-left: 300px;
+	float: left;
+	width: 430px;
+	height: 164px;
+	margin-top: -166px;
+	font-size: 14px;
+}
+.c a {
+	display: block;
+	padding: 0 10px;
+	line-height: 36px;
+	height: 35px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+}
+.c {
+	float: left;
+	margin-left: 750px;
+	margin-top: -180px;
+}
+.c3 h1 {
+	color: #006680;
+}
+.c4 {
+
+	background-color: #006680;
+}
+/*-------end content left-------*/
+
+/*-------start content right-------*/
+.menu-right {
+	float: left;
+	margin-left: 972px;
+	margin-top: -1168px;
+}
+.menu1 ul li a {
+	text-decoration: none;
+	font-size: 14px;
+}
+.menu1 ul {
+	display: inline;
+}
+.menu1 ul li {
+	list-style: none;
+	padding-left: 100px;
+	line-height: 27px;
+}
+.menu2 {
+	width: 300px;
+	margin-left: 80px;
+}
+.menu2 form {
+	display: inline;
+}
+.menu2 form a {
+	text-decoration: none;
+	line-height: 27px;
+}
+.menu-top {
+	margin-top: 43px;
+	float: left;
+}
+.menu-left p {
+	font-size: 14px;
+}
+/*-------end content right-------*/
+
+.imgbig:hover
+{
+	width:400px;
+	height:550px;
+	}
